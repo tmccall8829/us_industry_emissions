@@ -1,6 +1,5 @@
 import pandas as pd
 import plotly.express as px
-from math import floor as fl
 
 # load the data
 df = pd.read_csv("emissions_data.csv")
