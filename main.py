@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 
 # load the data
-df = pd.read_csv("emissions_data.csv")
+df = pd.read_csv("/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Programming/us_industry_emissions/emissions_data.csv")
 
 # melt and clean up the data so it's easy to get the years and emissions numbers
 df_melted = df.melt(id_vars=["Emissions by Economic Sector, MMT CO2 eq."], value_vars=None, var_name="Year", value_name="MMTCO2e")
